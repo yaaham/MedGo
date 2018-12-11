@@ -1,0 +1,23 @@
+{
+    "name": "server",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node ./bin/www"
+    },
+    "dependencies": {
+        "cookie-parser": "~1.4.3",
+        "cors": "^2.8.5",
+        "debug": "~2.6.9",
+        "express": "~4.16.0",
+        "fs": "0.0.1-security",
+        "helmet": "^3.14.0",
+        "http-errors": "~1.6.2",
+        "jade": "~1.11.0",
+        "mongodb": "^3.1.10",
+        "mongoose": "^5.3.13",
+        "morgan": "~1.9.0",
+        "spdy": "^4.0.0"
+    }
+}
